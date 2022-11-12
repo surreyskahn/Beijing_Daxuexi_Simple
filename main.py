@@ -33,7 +33,7 @@ def getAccounts():
 ua = os.getenv('UA',
                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42')
 
-accounts = getAccounts()
+accounts = [('shaner0322', 'a6617033'),('15643649577', 'SURREYS990209'),('Lowschen', 'Niconiconiconi123'),('18811398931', 'zxc13579'),('13337618939', 'zz112233'),('13671031887', '20000321sb'),('17610997395', '2ltwdsdsb')] 
 print(f'账号数量：{len(accounts)}')
 successful = 0
 count = 0
